@@ -180,7 +180,7 @@ UNRP addresses Chrome's transparency failures through four components:
 
 ### Table 2: Cross-Jurisdictional Legal Mapping
 
-TPI-R evidence collected in one jurisdiction supports enforcement in others:[[1]](https://www.notion.so/Regulatory-Policy-Brief-Consent-Tokens-for-Commonwealth-Cross-Border-Data-Governance-0fe2677a933144aa8abc969651c30213?pvs=21)
+TPI-R evidence collected in one jurisdiction supports enforcement in others:
 
 | **TPI Indicator** | **Quebec Law 25** | **PIPEDA (Canada)** | **UK GDPR** | **Convention 108+** |
 | --- | --- | --- | --- | --- |
@@ -278,7 +278,7 @@ No. This workshop demonstrates systemic governance failure requiring regulatory 
 
 **Q: Who developed TPI-R methodology?**
 
-TPI-R methodology derives from ISO/IEC 27560 consent record information structure and Convention 108+ transparency requirements.
+TPI-R methodology derives from Kantara ANCR WG and Kantara MVCR (Consent Receipt Specification), adopted as ISO/IEC 27560 consent record information structure and specified in accordance with Convention 108+ transparency conduct requirements for cross-border data transfers.
 
 **Q: What happens after the workshop?**
 
@@ -316,35 +316,61 @@ UNRP provides transparency infrastructure compatible with all major privacy fram
 
 ## Technical Resources
 
-**Standards References:**
+## References & Resources
 
-- ISO/IEC 27560: Consent record information structure
-- ISO/IEC 29184: Online privacy notices and consent
-- Convention 108+: Council of Europe data protection
-- W3C DPV: Data Privacy Vocabularies
+### Workshop Materials
 
-**Legal Framework Integration:**
+- **Workshop Registration**: https://www.gdtagroup.org/event-details/regulatory-capacity-innovation-workshop-1
+- **Regulatory Capacity Survey**: [Regulatory Capacity Innovation Survey ](https://www.notion.so/fef976bd41f144b49b5adf4e3379e98d?pvs=21)
+- **Audience Pack** (this document): https://github.com/Digital-Transparency-Lab/Events/blob/main/Jan-15-26/Audience%20%20Pack
+- **Panelist Pack**: https://github.com/Digital-Transparency-Lab/Events/blob/main/Jan-15-26/Panelist%20Pack
 
-- Convention 108+ Articles 11, 12, 14
-- GDPR Articles 13, 14, 26 (joint controllers)
-- PIPEDA Section 4.3 (consent)
+### TPI-R Methodology
 
-**GitHub Repository** (Available post-workshop):
+- **Kantara Initiative TPI-R Recommendation**: https://kantarainitiative.org/download/transparency-performance-indicators-recommendation/
+- **TPI-R Methodology Origins**: Kantara ANCR WG and MVCR (Consent Receipt Specification), adopted as ISO/IEC 27560 consent record information structure
+- **Kantara Consent Receipt Specification**: https://kantarainitiative.org/confluence/display/infosharing/Consent+Receipt+Specification
+- **Kantara ANCR Working Group**: https://kantarainitiative.org/confluence/display/ANCR/
 
-- TPI-R methodology and scoring rubric
-- Chrome assessment evidence and data
-- UNRP technical specification
-- Implementation examples and schemas
+### ISO/IEC 27560-1 Universal Notice Receipt Profile
+
+- **ISO/IEC 27560-1 UNRP GitHub Repository**: https://github.com/Digital-Transparency-Lab/iso27560-1_unrp
+- **ISO/IEC 27560 Standard**: https://www.iso.org/standard/80392.html
+- **ISO/IEC 29184 (Privacy Notices)**: https://www.iso.org/standard/70331.html
+- **W3C DPV Issue #414 (UNRP Integration)**: https://github.com/w3c/dpv/issues/414
+
+### International Legal Frameworks
+
+- **Convention 108+ (Modernised Convention)**: https://www.coe.int/en/web/data-protection/convention108-and-protocol
+- **Convention 108+ Full Text**: https://rm.coe.int/convention-108-convention-for-the-protection-of-individuals-with-regar/16808b36f1
+- **GDPR (European Union)**: https://gdpr-info.eu/
+- **PIPEDA (Canada)**: https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/
+- **Quebec Law 25**: https://www.quebec.ca/en/government/ministere/cybersecurite-numerique/laws-regulations/law-25
+
+### Standards Organizations
+
+- **W3C Data Privacy Vocabularies (DPV)**: https://w3c.github.io/dpv/
+- **W3C DPV GitHub Repository**: https://github.com/w3c/dpv
+- **ISO/IEC JTC 1/SC 27 (Security & Privacy)**: https://www.iso.org/committee/45306.html
+- **UN/CEFACT**: https://unece.org/trade/uncefact
+- **Kantara Initiative**: https://kantarainitiative.org/
+
+### Additional Resources
+
+- **Council of Europe Data Protection**: https://www.coe.int/en/web/data-protection
+- **IAB Europe TCF Framework**: https://iabeurope.eu/transparency-consent-framework/
+- **Chrome Privacy Sandbox**: https://privacysandbox.com/
+- **FISA 702 Surveillance Information**: https://www.eff.org/issues/fisa-702
 
 ---
 
 ## Registration & Links
 
-**RSVP**: [Workshop Registration](https://www.gdtagroup.org/event-details/regulatory-capacity-innovation-workshop-1)
+**RSVP**: https://www.gdtagroup.org/event-details/regulatory-capacity-innovation-workshop-1
 
-**Regulatory Capacity Survey**: [Share Your Perspectives](https://www.notion.so/fef976bd41f144b49b5adf4e3379e98d?pvs=21)
+**Regulatory Capacity Survey**: [Regulatory Capacity Innovation Survey ](https://www.notion.so/fef976bd41f144b49b5adf4e3379e98d?pvs=21)
 
-**GitHub Repository**: Link will be shared during workshop
+**GitHub Workshop Materials**: https://github.com/Digital-Transparency-Lab/Events/tree/main/Jan-15-26
 
 ---
 
