@@ -28,7 +28,7 @@ You are part of a distinguished panel examining regulatory capacity infrastructu
 
 ### What is TPI-R?
 
-**<user-selection>Transparency Performance Indicator - Receipt (TPI-R)** is a methodology for measuring controller transparency compliance using four indicators:</user-selection>[[1]](https://kantarainitiative.org/download/transparency-performance-indicators-recommendation/)   
+**Transparency Performance Indicator - Receipt (TPI-R)** is a methodology for measuring controller transparency compliance using four indicators   
 
 - **TPI-1**: Controller identification BEFORE personal data collection
 - **TPI-2**: Controller identification accuracy and completeness
@@ -127,7 +127,7 @@ Controller-ID first architecture that addresses TPI-R findings through four comp
 
 ### Table 2: Cross-Jurisdictional Legal Mapping
 
-TPI-R evidence collected in one jurisdiction supports enforcement in others:[[1]](https://www.notion.so/Regulatory-Policy-Brief-Consent-Tokens-for-Commonwealth-Cross-Border-Data-Governance-0fe2677a933144aa8abc969651c30213?pvs=21)
+TPI-R evidence collected in one jurisdiction supports enforcement in others:
 
 | **TPI Indicator** | **Quebec Law 25** | **PIPEDA (Canada)** | **Privacy Act 1988 (AU)** | **UK GDPR** | **Convention 108+** |
 | --- | --- | --- | --- | --- | --- |
@@ -137,6 +137,66 @@ TPI-R evidence collected in one jurisdiction supports enforcement in others:[[1]
 | TPI-4: Cross-border | Art. 17: Communication of transfer | Principle 4.1.3: Safeguards | APP 8: Cross-border disclosure | Art. 44-46: Transfer mechanisms | Article 14: Transborder flows |
 
 **Key Insight**: Single TPI-Report enables coordinated multi-lateral enforcement without duplicating investigation work
+
+---
+
+## Universal Transparency Gov-Tech: The DPTI Stack
+
+### Digital Public Transparency Infrastructure for Regulatory Capacity
+
+The **DPTI Stack** (Digital Public Transparency Infrastructure) represents a layered governance architecture that regulators should know about and support. This stack enables co-regulated transparency infrastructure through international standards coordination:
+
+**Layer 1: Treaty Foundation**
+
+- **Convention 108+ Transparency Code of Conduct** (Article 11)
+- Co-regulated by regulatory community as digital public transparency infrastructure
+- Establishes cross-border enforcement coordination framework
+
+**Layer 2: Privacy Framework Foundation**
+
+- **ISO/IEC 29100:2011** - Privacy framework
+- Foundational privacy principles and terminology
+- Basis for all subsequent privacy standards
+
+**Layer 3: Consent Record Information Structure**
+
+- **ISO/IEC 27560-1** - Universal Notice Receipt Profile
+- Controller-ID first architecture with MVCR, ANCR, CIR, Notice Event Log
+- Standardized transparency infrastructure for all six legal bases
+
+**Layer 4: Privacy Vocabulary & Semantics**
+
+- **W3C Data Privacy Vocabularies (DPV)** - Convention 108+ Legal Model
+- Machine-readable privacy concepts and legal bases
+- Enables automated compliance measurement and enforcement
+
+**Layer 5: Protocol & Discovery**
+
+- **IETF Well-Known URI for Transparency**
+- Standardized discovery mechanism for controller transparency records
+- Enables browser-level transparency infrastructure
+
+### Why Regulators Should Support the DPTI Stack
+
+**Enforcement at Scale**: The integrated stack enables TPI-R methodology for automated compliance measurement (95% cost reduction, 97% time reduction)
+
+**International Coordination**: Convention 108+ Code of Conduct framework provides treaty-level coordination across jurisdictions without requiring new legislation
+
+**Multi-Jurisdictional Evidence**: Single transparency assessment produces evidence valid across multiple regulatory frameworks (GDPR, PIPEDA, Quebec Law 25, Convention 108+)
+
+**Browser-Level Infrastructure**: IETF Well-Known URI standard enables browsers to enforce Controller-ID first disclosure before data collection
+
+**Measurable Performance**: TPI-R ≥70/100 threshold establishes quantifiable valid legal basis standard for cross-jurisdictional processing
+
+### Regulatory Actions to Support DPTI Stack
+
+1. **Adopt Convention 108+ Article 11 Code of Conduct framework** for transparency infrastructure coordination
+2. **Reference ISO/IEC 27560-1 UNRP in enforcement guidance** as evidence standard for controller transparency
+3. **Support W3C DPV adoption** for machine-readable privacy notices and automated compliance measurement
+4. **Encourage browser vendors** to implement IETF Well-Known Transparency discovery mechanisms
+5. **Establish TPI-R performance baselines** for cross-border data transfer adequacy determinations
+
+*For detailed technical specifications, see the [DPTI Stack Technical Reference](#) on the Standards Hub.*
 
 ---
 
@@ -260,19 +320,63 @@ TPI-R evidence collected in one jurisdiction supports enforcement in others:[[1]
 
 ## Technical Resources
 
-**GitHub Repository** (Available after workshop):
+## References & Resources
 
-- Full TPI-R methodology documentation
-- Chrome assessment evidence
-- ISO/IEC 27560-1 UNRP technical specification
-- Convention 108+ integration framework
+### Workshop Materials
 
-**Related Standards:**
+- **Workshop Registration**: https://www.gdtagroup.org/event-details/regulatory-capacity-innovation-workshop-1
+- **Regulatory Capacity Survey**: [Regulatory Capacity Innovation Survey ](https://www.notion.so/fef976bd41f144b49b5adf4e3379e98d?pvs=21)
+- **Panelist Pack** (this document): https://github.com/Digital-Transparency-Lab/Events/blob/main/Jan-15-26/Panelist%20Pack
+- **Audience Pack**: https://github.com/Digital-Transparency-Lab/Events/blob/main/Jan-15-26/Audience%20%20Pack
 
-- ISO/IEC 27560: Consent record information structure
-- ISO/IEC 29184: Online privacy notices and consent
-- Convention 108+: Council of Europe data protection
-- W3C DPV: Data Privacy Vocabularies
+### TPI-R Methodology
+
+- **Kantara Initiative TPI-R Recommendation**: https://kantarainitiative.org/download/transparency-performance-indicators-recommendation/
+- **TPI-R Methodology Origins**: Kantara ANCR WG and MVCR (Consent Receipt Specification), adopted as ISO/IEC 27560 consent record information structure
+- **Kantara Consent Receipt Specification**: https://kantarainitiative.org/confluence/display/infosharing/Consent+Receipt+Specification
+- **Kantara ANCR Working Group**: https://kantarainitiative.org/confluence/display/ANCR/
+
+### ISO/IEC 27560-1 Universal Notice Receipt Profile
+
+- **ISO/IEC 27560-1 UNRP GitHub Repository**: https://github.com/Digital-Transparency-Lab/iso27560-1_unrp
+- **ISO/IEC 27560 Standard**: https://www.iso.org/standard/80392.html
+- **W3C DPV Issue #414 (UNRP Integration)**: https://github.com/w3c/dpv/issues/414
+
+### International Legal Frameworks
+
+- **Convention 108+ (Modernised Convention)**: https://www.coe.int/en/web/data-protection/convention108-and-protocol
+- **Convention 108+ Full Text**: https://rm.coe.int/convention-108-convention-for-the-protection-of-individuals-with-regar/16808b36f1
+- **Council of Europe Data Protection**: https://www.coe.int/en/web/data-protection
+
+### Standards Organizations & Related Work
+
+- **W3C Data Privacy Vocabularies (DPV)**: https://w3c.github.io/dpv/
+- **W3C DPV GitHub Repository**: https://github.com/w3c/dpv
+- **ISO/IEC JTC 1/SC 27 (Security & Privacy)**: https://www.iso.org/committee/45306.html
+- **ISO/IEC 29184 (Privacy Notices)**: https://www.iso.org/standard/70331.html
+- **UN/CEFACT**: https://unece.org/trade/uncefact
+
+### IAB TCF Court Ruling
+
+- **Brussels Court of Appeal (May 14, 2025)**: IAB Europe TCF ruling establishing IAB as controller and TCF string as personal data
+- **IAB Europe TCF Framework**: https://iabeurope.eu/transparency-consent-framework/
+
+### Canadian Privacy Law
+
+- **PIPEDA**: https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/
+- **Quebec Law 25**: https://www.quebec.ca/en/government/ministere/cybersecurite-numerique/laws-regulations/law-25
+- **FIPA (Freedom of Information and Privacy Association)**: https://fipa.bc.ca/
+
+### Academic & Research Resources
+
+- **Michael Geist (University of Ottawa)**: https://www.michaelgeist.ca/
+- **Privacy and Access Council of Canada**: https://pacccanada.com/
+- **UNSW Allens Hub for Technology, Law & Innovation**: https://www.allens.com.au/globalassets/
+
+### Additional Context
+
+- **FISA 702 Surveillance**: https://www.eff.org/issues/fisa-702
+- **Chrome Privacy Sandbox**: https://privacysandbox.com/
 
 ---
 
@@ -288,20 +392,6 @@ TPI-R evidence collected in one jurisdiction supports enforcement in others:[[1]
 **Q&A**: 11:50 AM - 12:00 PM Eastern (all panelists)
 
 **Technical Support**: Tim L and Marcelle will monitor chat and coordinate Q&A
-
----
-
-## Contact
-
-**Questions before the workshop?**
-
-Mark Lizar
-
-ISO/IEC 27560-1 Profile Editor
-
-Transparency Lab
-
-[mark@transparencylab.ca](mailto:mark@transparencylab.ca)
 
 ---
 
