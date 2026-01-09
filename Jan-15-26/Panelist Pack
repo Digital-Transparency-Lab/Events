@@ -1,0 +1,308 @@
+# Panelist Information Package
+
+**Digital Privacy Officer Regulatory Consultation Workshop**
+
+**January 15, 2026 | 10:30 AM - 12:00 PM Eastern (3:30 PM - 5:00 PM UTC)**
+
+Thank you for considering to participate in this workshop. This package provides background materials and discussion frameworks for your panel session.
+
+---
+
+## Workshop Overview
+
+### Objective
+
+Evaluate empirical evidence for innovating regulatory capacity through standardised transparency infrastructure to decentralise consent. This workshop demonstrates a governance paradigm shift from privacy-preserving to privacy-enabling data control.
+
+### Your Role
+
+You are part of a distinguished panel examining regulatory capacity infrastructure for enforcement at scale. Your expertise will guide discussion on:
+
+- Current compliance landscape and enforcement gaps
+- International regulatory approaches
+- Infrastructure requirements for measurable enforcement
+
+---
+
+## Executive Summary: TPI-R Assessment Findings
+
+### What is TPI-R?
+
+**<user-selection>Transparency Performance Indicator - Receipt (TPI-R)** is a methodology for measuring controller transparency compliance using four indicators:</user-selection>[[1]](https://kantarainitiative.org/download/transparency-performance-indicators-recommendation/)   
+
+- **TPI-1**: Controller identification BEFORE personal data collection
+- **TPI-2**: Controller identification accuracy and completeness
+- **TPI-3**: Privacy rights access functionality in context
+- **TPI-4**: Cross-border transfer disclosure and risk notice
+
+**Scoring**: -1 (non-compliant) | 0 (partial) | +1 (compliant)
+
+### Chrome Browser Assessment: Three Levels
+
+**Level 1: Browser (Google Chrome)**
+
+- TPI-1: -1 (No controller identification before identifier creation)
+- TPI-2: -1 (Controller identification not provided)
+- TPI-3: -1 (Privacy access buried, not operational in context)
+- TPI-4: -1 (Undisclosed USA transfers, no FISA 702 surveillance risk notice)
+
+**Level 2: Website (ELNA Medical Clinic with Chrome)**
+
+- TPI-1: -1 (Cookie banner after collection)
+- TPI-2: 0 (Name provided but address/registration inconsistencies)
+- TPI-3: -1 (Non-functional rights access; 17-18 trackers including Facebook)
+- TPI-4: -1 (Undisclosed cross-border transfers)
+
+**Level 3: IAB Framework (IAB Canada TCF)**
+
+- Designed to obscure controller identification across jurisdictions
+- May 14, 2025 Brussels court ruling: IAB Europe acts as controller, TCF string is personal data
+- Enables "surveillance laundering" through self-regulatory framework
+
+### Key Findings
+
+1. **Not transparent**: Chrome fails to disclose scope of data processing by default
+2. **Identifies individuals without notice across jurisdictions**: Cross-border identification occurs before meaningful notice
+3. **Uses security misinformation**: "Cookie consent" dark patterns misrepresent legal requirements
+
+### Regulatory Implications
+
+**Current State**: 0% compliance demonstrates systemic governance failure
+
+**Proposed Solutions**:
+
+a) Enforce transparency over scope of disclosure by default on the browser
+
+b) Prohibit misinformation in browser interfaces
+
+c) Set international transparency performance baseline (TPI-R ≥70/100) for valid legal basis
+
+---
+
+## ISO/IEC 27560-1 Universal Notice Receipt Profile (UNRP)
+
+### Overview
+
+Controller-ID first architecture that addresses TPI-R findings through four components:
+
+**Part 1: Minimum Viable Consent Record (MVCR)**
+
+- Standardized disclosure structure
+- Controller identification BEFORE PII collection
+- Explicit scope declaration
+
+**Part 2: Anchored Notice and Consent Record (ANCR)**
+
+- Cryptographic proof infrastructure
+- Bilateral evidence (controller + individual)
+- Tamper-evident timestamp
+
+**Part 3: Controller Identification Record (CIR)**
+
+- Name, address, registration, jurisdiction
+- Disclosed BEFORE processing begins
+- Enables "architecture I choose to trust"
+
+**Part 4: Notice Event Log**
+
+- Transparency state tracking across 72 control contexts
+- 3 vectors × 4 TATA levels × 6 legal bases
+- Auditable compliance history
+
+### Regulatory Capacity Impact
+
+**Enforcement at Scale**: TPI-R methodology enables automated compliance measurement
+
+- 95% cost reduction compared to manual audits
+- 97% time reduction for assessment completion
+- Standardized evidence suitable for judicial proceedings
+
+**Multi-jurisdictional Coordination**: Convention 108+ Articles 11, 12, 14 integration
+
+- Article 11: Code of Conduct framework
+- Article 12: Cross-border data flows
+- Article 14: Transborder safeguards
+
+**Performance Threshold**: TPI-R ≥70/100 establishes measurable valid legal basis standard
+
+### Table 2: Cross-Jurisdictional Legal Mapping
+
+TPI-R evidence collected in one jurisdiction supports enforcement in others:[[1]](https://www.notion.so/Regulatory-Policy-Brief-Consent-Tokens-for-Commonwealth-Cross-Border-Data-Governance-0fe2677a933144aa8abc969651c30213?pvs=21)
+
+| **TPI Indicator** | **Quebec Law 25** | **PIPEDA (Canada)** | **Privacy Act 1988 (AU)** | **UK GDPR** | **Convention 108+** |
+| --- | --- | --- | --- | --- | --- |
+| TPI-1: Timing | Art. 8.1: Tech ID notice before collection | Principle 4.8: Purposes before collection | APP 5.1: Notification at/before collection | Art. 13.1: Info at time of collection | Article 8: Proactive transparency |
+| TPI-2: Controller ID | Art. 8: Controller identification required | Principle 4.1: Accountability for info | APP 1.4: Open privacy policy | Art. 13.1: Controller identity | Article 8.3: Identity disclosure |
+| TPI-3: Rights Access | Art. 9-17: Access, rectification, erasure | Principle 4.9: Access upon request | APP 12: Access mechanisms | Art. 15: Right of access | Article 9: Data subject rights |
+| TPI-4: Cross-border | Art. 17: Communication of transfer | Principle 4.1.3: Safeguards | APP 8: Cross-border disclosure | Art. 44-46: Transfer mechanisms | Article 14: Transborder flows |
+
+**Key Insight**: Single TPI-Report enables coordinated multi-lateral enforcement without duplicating investigation work
+
+---
+
+## 2026 International Coordination Timeline
+
+**Q2 2026: Council of Europe Consultation**
+
+- Convention 108+ transparency standards integration
+- Code of Conduct framework alignment (Article 11)
+- Cross-border enforcement coordination
+
+**Q3 2026: UN/CEFACT Liaison**
+
+- Trade facilitation alignment
+- International transparency baseline adoption
+- Standards harmonization with ISO/IEC JTC 1/SC 27
+
+---
+
+## Panel Discussion Framework
+
+### Part 2: Regulatory Perspectives Panel (20 minutes)
+
+**Your fellow panelists:**
+
+- FIPA (Freedom of Information and Privacy Association)
+- Michael Geist (University of Ottawa)
+- Sharon Polsky (Privacy and Access Council of Canada) - Panel Lead
+- Teresa Scassa (University of Ottawa)
+- Lisa Austin (University of Toronto)
+- CAI Quebec (Commission d'accès à l'information du Québec)
+- Michael Crompton (Former Australian Privacy Commissioner)
+- Graham Greenleaf (UNSW Sydney)
+
+### Discussion Questions
+
+**1. Current Compliance Landscape**
+
+- How does Chrome's 0% transparency compliance reflect broader enforcement challenges?
+- What regulatory mechanisms currently exist to measure browser-level transparency?
+- Are current frameworks sufficient to address cross-jurisdictional identification without notice?
+
+**2. Enforcement Infrastructure Gaps**
+
+- What prevents regulators from conducting systematic transparency assessments at scale?
+- How might TPI-R methodology (95% cost reduction, 97% time reduction) change enforcement capacity?
+- What role should browsers play in transparency infrastructure?
+
+**3. International Regulatory Coordination**
+
+- How can Convention 108+ Articles 11, 12, 14 enable cross-border transparency enforcement?
+- What challenges exist in establishing international transparency performance baselines?
+- Should TPI-R ≥70/100 serve as a threshold for valid legal basis across jurisdictions?
+
+**4. Paradigm Shift: Privacy-Enabling vs Privacy-Preserving**
+
+- Privacy-preserving: Organizations protect data they control (controller-centric)
+- Privacy-enabling: Individuals control whether to share data (individual-centric)
+- What regulatory changes would support Controller-ID first architecture?
+
+**5. "Cookie Consent" Misinformation**
+
+- Should regulators prohibit "cookie consent" terminology in browser interfaces?
+- How does security misinformation impact valid consent requirements?
+- What role should accurate legal basis disclosure play in browser design?
+
+### Your Preparation
+
+**Before the workshop:**
+
+- Review TPI-R Assessment findings (3 pages)
+- Consider enforcement infrastructure requirements in your jurisdiction
+- Identify 2-3 key regulatory capacity challenges
+
+**During your panel:**
+
+- Respond to moderator questions (2-3 minutes each)
+- Engage with fellow panelists on enforcement gaps
+- Connect TPI-R findings to your regulatory experience
+
+**Tone guidance:**
+
+- Evidence-based discussion (cite TPI-R findings)
+- Focus on infrastructure requirements, not vendor solutions
+- International coordination opportunities
+
+---
+
+## Part 3: Standards Development Panel
+
+**Panelists:**
+
+- Harshvardhan Pandit (W3C Data Privacy Vocabularies)
+- Beatriz Esteves (W3C DPV)
+- Iain Henderson (ISO/IEC JTC 1/SC 27)
+- Sal D'Agostino (UN/CEFACT)
+
+**Discussion Focus:**
+
+- W3C DPV alignment with ISO/IEC 27560-1
+- Standards harmonization opportunities
+- Technical implementation frameworks
+
+---
+
+## Key Terminology
+
+**Controller-ID first**: Controllers disclose identity BEFORE collecting personal information (vs identification after collection)
+
+**Notice Receipt**: Bilateral proof-of-notice provided to BOTH controller and individual with synchronized records
+
+**Notice Token**: Digital evidence that meaningful choice occurred through Controller-ID first notice disclosure, cryptographically bound to CIR and Notice Receipt
+
+**Surveillance laundering**: Self-regulatory frameworks designed to obscure controller identification across jurisdictions
+
+**TATA (Transparency and Trust Assurance)**: Four-level framework from self-assertion to high-assurance active state signaling
+
+**72 Control Contexts**: 3 vectors × 4 TATA levels × 6 legal bases = comprehensive transparency governance configurations
+
+---
+
+## Technical Resources
+
+**GitHub Repository** (Available after workshop):
+
+- Full TPI-R methodology documentation
+- Chrome assessment evidence
+- ISO/IEC 27560-1 UNRP technical specification
+- Convention 108+ integration framework
+
+**Related Standards:**
+
+- ISO/IEC 27560: Consent record information structure
+- ISO/IEC 29184: Online privacy notices and consent
+- Convention 108+: Council of Europe data protection
+- W3C DPV: Data Privacy Vocabularies
+
+---
+
+## Logistics
+
+**Platform**: Virtual (Zoom link to follow)
+
+**Your Session Timing**:
+
+- Part 2 (Regulatory Perspectives): 11:05 AM - 11:25 AM Eastern
+- Part 3 (Standards Development): 11:25 AM - 11:40 AM Eastern
+
+**Q&A**: 11:50 AM - 12:00 PM Eastern (all panelists)
+
+**Technical Support**: Tim L and Marcelle will monitor chat and coordinate Q&A
+
+---
+
+## Contact
+
+**Questions before the workshop?**
+
+Mark Lizar
+
+ISO/IEC 27560-1 Profile Editor
+
+Transparency Lab
+
+[mark@transparencylab.ca](mailto:mark@transparencylab.ca)
+
+---
+
+*This workshop presents regulatory capacity infrastructure for enforcement at scale. It is not a compliance tool for companies or vendor presentation.*
