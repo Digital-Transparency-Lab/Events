@@ -1,8 +1,10 @@
-# Audience Information Package
+# Event Information Pack
 
-**Digital Privacy Officer Regulatory Consultation Workshop**
+**DPO Regulatory Consultation Workshop: Privacy-Enabling Data Control**
 
-**January 15, 2026 | 10:30 AM - 12:00 PM Eastern (3:30 PM - 5:00 PM UTC)**
+**Thursday, January 15, 2026**
+
+**10:30 AM – 12:00 PM Eastern (3:30 PM – 5:00 PM UTC)**
 
 Welcome to this workshop on regulatory capacity innovation through standardised transparency infrastructure.
 
@@ -18,7 +20,7 @@ This 90-minute workshop presents empirical evidence of a governance paradigm shi
 
 1. Chrome's 0% transparency compliance demonstrates systemic governance failure
 2. TPI-R Assessment methodology enables enforcement at scale (95% cost reduction, 97% time reduction)
-3. ISO/IEC 27560-1 Universal Notice Receipt Profile addresses transparency failures through Controller-ID first architecture
+3. Research supports Multi-Lateral (distributed) Governance and Multi-Lateral (decentralised) Governance infrastructure
 4. 2026 international coordination through Convention 108+ and UN/CEFACT
 
 ### Who Should Attend
@@ -39,26 +41,24 @@ This 90-minute workshop presents empirical evidence of a governance paradigm shi
 - Paradigm shift: Privacy-enabling vs privacy-preserving data control
 - Workshop objectives and flow
 
-**Part 1: TPI-R Assessment Findings** (25 min)
+**Part 1: TPI-R Assessment Findings & 2026 International Coordination** (20 min)
 
-- Chrome Browser transparency compliance assessment
-- Three-level findings: Browser, Website, IAB
-- 2026 international coordination timeline
+- Mark Lizar
+- Chrome Browser transparency compliance assessment demonstrating 0% compliance
+- Three-level analysis: Browser, Website, IAB framework
+- Research supports Multi-Lateral (distributed) Governance, Multi-Lateral (decentralised) Governance infrastructure
 
 **Part 2: Regulatory Perspectives Panel** (20 min)
 
-- 8 distinguished panelists from Canada, Australia, and international organizations
-- Discussion: Enforcement gaps and infrastructure requirements
+- Distinguished panelists from Canada, Australia, and international organizations
+- Discussion: Enforcement capacity and regulatory infrastructure
 
-**Part 3: Standards Development Panel** (15 min)
+**Part 4: ISO/IEC 27560-1 UNRP - Addressing TPI-R Findings** (20 min)
 
-- W3C DPV, ISO/IEC JTC 1/SC 27, UN/CEFACT experts
-- Discussion: Standards harmonization and technical implementation
-
-**Part 4: ISO/IEC 27560-1 UNRP Solution** (20 min)
-
-- How UNRP addresses TPI-R findings
-- Regulatory capacity impact and societal implications
+- Mark Lizar
+- Controller-ID first architecture
+- Supporting Multi-lateral governance innovation
+- How transparency infrastructure enables regulatory capacity at scale
 
 **Q&A Session** (10 min)
 
@@ -134,35 +134,23 @@ The workshop presents three-level TPI-R assessment:
 
 ---
 
-## ISO/IEC 27560-1 Universal Notice Receipt Profile
+## Multi-Lateral Governance Infrastructure
 
-### The Solution: Controller-ID First Architecture
+### Research Findings
 
-UNRP addresses Chrome's transparency failures through four components:
+The TPI-R Assessment demonstrates that current centralized governance architectures cannot enforce transparency at scale. Research supports:
 
-**1. Minimum Viable Consent Record (MVCR)**
+**Multi-Lateral (Distributed) Governance**
 
-- Standardized disclosure structure
-- Controller identifies BEFORE collecting personal information
-- Explicit scope declaration replaces hidden data flows
+- Distributed enforcement capacity across jurisdictions
+- Coordinated regulatory action without centralized control
+- Convention 108+ Articles 11, 12, 14 integration
 
-**2. Anchored Notice and Consent Record (ANCR)**
+**Multi-Lateral (Decentralised) Governance Infrastructure**
 
-- Cryptographic proof infrastructure
-- Bilateral evidence provided to both controller and individual
-- Tamper-evident timestamp creates audit trail
-
-**3. Controller Identification Record (CIR)**
-
-- Name, address, registration number, jurisdiction
-- Disclosed BEFORE processing begins
-- Enables individual verification and "architecture I choose to trust"
-
-**4. Notice Event Log**
-
-- Tracks transparency state across 72 control contexts
-- 3 vectors × 4 TATA levels × 6 legal bases
-- Creates auditable compliance history
+- Standards-based transparency infrastructure (ISO/IEC 27560-1, W3C DPV)
+- Controller-ID first architecture enabling individual verification
+- TPI-R ≥70/100 threshold for cross-jurisdictional processing
 
 ### Regulatory Capacity Impact
 
@@ -174,26 +162,58 @@ UNRP addresses Chrome's transparency failures through four components:
 
 **International Coordination**
 
-- Convention 108+ Articles 11, 12, 14 integration
-- TPI-R ≥70/100 threshold for cross-jurisdictional processing
+- Convention 108+ transparency standards integration
 - Standards harmonization with W3C DPV and UN/CEFACT
+- 2026 coordination timeline (Q2 CoE, Q3 UN/CEFACT)
 
 ### Table 2: Cross-Jurisdictional Legal Mapping
 
 TPI-R evidence collected in one jurisdiction supports enforcement in others:
 
-| **TPI Indicator** | **Quebec Law 25** | **PIPEDA (Canada)** | **UK GDPR** | **Convention 108+** |
-| --- | --- | --- | --- | --- |
-| TPI-1: Timing | Art. 8.1: Tech ID notice before collection | Principle 4.8: Purposes before collection | Art. 13.1: Info at time of collection | Article 8: Proactive transparency |
-| TPI-2: Controller ID | Art. 8: Controller identification required | Principle 4.1: Accountability for info | Art. 13.1: Controller identity | Article 8.3: Identity disclosure |
-| TPI-3: Rights Access | Art. 9-17: Access, rectification, erasure | Principle 4.9: Access upon request | Art. 15: Right of access | Article 9: Data subject rights |
-| TPI-4: Cross-border | Art. 17: Communication of transfer | Principle 4.1.3: Safeguards | Art. 44-46: Transfer mechanisms | Article 14: Transborder flows |
+| **TPI Indicator** | **Convention 108+** | **GDPR (EU)** | **UK GDPR & DPA 2018** | **PIPEDA (Canada)** | **Quebec Law 25** | **Privacy Act 1988 (AU)** | **Privacy Act 2020 (NZ)** |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TPI-1: Timing | Article 8: Proactive transparency | Art. 13, 14: Transparency | Art. 13, 14: Transparency | Principle 4.8: Purposes before collection | Art. 8.1: Tech ID notice before collection | APP 5: Notification | Principle 3: Collection from individual |
+| TPI-2: Controller ID | Article 8.3: Identity disclosure | Art. 13.1: Controller identity | Art. 13.1: Controller identity | Principle 4.1: Accountability for info | Art. 8: Controller identification required | APP 1: Accountability | Principle 12: Unique identifiers |
+| TPI-3: Rights Access | Article 9: Data subject rights | Art. 15: Access | Art. 15: Access | Principle 4.9: Access upon request | Art. 9-17: Access, rectification, erasure | APP 12: Access | Principle 6: Access |
+| TPI-4: Cross-border | Article 14: Transborder flows | Art. 44-46: Transfers | Schedule 1: International transfers | Principle 4.1.3: Safeguards | Art. 17: Transfer disclosure | APP 8: Cross-border disclosure | Principle 11: Disclosure outside NZ |
 
 **Key Insight**: Single TPI-Report enables coordinated multi-lateral enforcement without duplicating investigation work
 
 ---
 
+## Meet the Panelists
 
+### Part 2: Regulatory Perspectives Panel
+
+**Sharon Polsky** (Panel Lead) - Privacy and Access Council of Canada
+
+**FIPA** - Freedom of Information and Privacy Association
+
+**Michael Geist** - University of Ottawa
+
+**Teresa Scassa** - University of Ottawa
+
+**Lisa Austin** - University of Toronto
+
+**CAI Quebec** - Commission d'accès à l'information du Québec
+
+**Michael Crompton** - Former Australian Privacy Commissioner
+
+**Graham Greenleaf** - UNSW Sydney
+
+### Part 3: Standards Development Panel
+
+**Sal D'Agostino** - Kantara ANCR WG, UN/CEFACT
+
+**Paul Knowles** - RBC
+
+**Tim Reiniger** - Blind Notary
+
+**Harshvardhan Pandit** - W3C Data Privacy Vocabularies (invited)
+
+**Beatriz Esteves** - W3C DPV (invited)
+
+**Iain Henderson** - ISO/IEC JTC 1/SC 27 (invited)
 
 ---
 
@@ -256,17 +276,13 @@ TPI-R methodology derives from Kantara ANCR WG and Kantara MVCR (Consent Receipt
 
 Q2 2026 CoE consultation and Q3 2026 UN/CEFACT liaison will advance international coordination. GitHub repository provides technical implementation resources.
 
-**Q: Is UNRP available now?**
+**Q: What is Multi-Lateral Governance?**
 
-ISO/IEC 27560-1 Universal Notice Receipt Profile is under development. March 2026 plenary will advance the standard.
-
-**Q: Can I implement Controller-ID first architecture today?**
-
-Yes. Level 1 (Self-Assertion) uses open MVCR to add notice.txt, notice event log, and CIR. No registration required.
+Distributed enforcement capacity across jurisdictions with decentralized transparency infrastructure. Enables coordinated regulatory action without centralized control.
 
 **Q: How does this relate to GDPR/PIPEDA/other regulations?**
 
-UNRP provides transparency infrastructure compatible with all major privacy frameworks. Convention 108+ integration ensures broad jurisdictional coverage.
+Standards-based transparency infrastructure is compatible with all major privacy frameworks. Convention 108+ integration ensures broad jurisdictional coverage.
 
 ---
 
@@ -292,10 +308,9 @@ UNRP provides transparency infrastructure compatible with all major privacy fram
 
 ### Workshop Materials
 
-- **Workshop Registration**: https://www.gdtagroup.org/event-details/regulatory-capacity-innovation-workshop-1
+- **Workshop Registration**: [user://1bad872b-594c-81a6-9409-0002124f9680](user://1bad872b-594c-81a6-9409-0002124f9680)
 - **Regulatory Capacity Survey**: [Regulatory Capacity Innovation Survey ](https://www.notion.so/fef976bd41f144b49b5adf4e3379e98d?pvs=21)
-- **Audience Pack** (this document): https://github.com/Digital-Transparency-Lab/Events/blob/main/Jan-15-26/Audience%20%20Pack
-- **Panelist Pack**: https://github.com/Digital-Transparency-Lab/Events/blob/main/Jan-15-26/Panelist%20Pack
+- **Information Pack**: [GitHub Repository](https://github.com/Digital-Transparency-Lab/Events/blob/main/Jan-15-26/Audience%20Pack)
 
 ### TPI-R Methodology
 
@@ -326,6 +341,7 @@ UNRP provides transparency infrastructure compatible with all major privacy fram
 - **ISO/IEC JTC 1/SC 27 (Security & Privacy)**: https://www.iso.org/committee/45306.html
 - **UN/CEFACT**: https://unece.org/trade/uncefact
 - **Kantara Initiative**: https://kantarainitiative.org/
+- **Digital Transparency Lab:**  [ISO/IEC 27560-1 Profile, IETF - Well Known Location ****](https://github.com/Digital-Transparency-Lab/iso27560-1_unrp/tree/main/specifications)
 
 ### Additional Resources
 
@@ -333,16 +349,8 @@ UNRP provides transparency infrastructure compatible with all major privacy fram
 - **IAB Europe TCF Framework**: https://iabeurope.eu/transparency-consent-framework/
 - **Chrome Privacy Sandbox**: https://privacysandbox.com/
 - **FISA 702 Surveillance Information**: https://www.eff.org/issues/fisa-702
-
----
-
-## Registration & Links
-
-**RSVP**: https://www.gdtagroup.org/event-details/regulatory-capacity-innovation-workshop-1
-
-**Regulatory Capacity Survey**: [Regulatory Capacity Innovation Survey ](https://www.notion.so/fef976bd41f144b49b5adf4e3379e98d?pvs=21)
-
-**GitHub Workshop Materials**: https://github.com/Digital-Transparency-Lab/Events/tree/main/Jan-15-26
+    
+    
 
 ---
 
@@ -351,6 +359,12 @@ UNRP provides transparency infrastructure compatible with all major privacy fram
 **Workshop Organizer:**
 
 Mark Lizar
+
+ISO/IEC 27560-1 Profile Editor
+
+Transparency Lab
+
+[mark@transparencylab.ca](mailto:mark@transparencylab.ca)
 
 **Technical Support During Workshop:**
 
@@ -368,4 +382,4 @@ We look forward to your engagement in this important discussion.
 
 ---
 
-*Workshop materials are provided under legitimate interest for regulatory capacity innovation, standards development, and public interest research.*
+*Workshop materials are provided for regulatory capacity innovation, standards development, and public interest research (WIth Digital Transparency Lab Providence & Authority)*
