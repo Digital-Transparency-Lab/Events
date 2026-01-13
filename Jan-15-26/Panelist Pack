@@ -37,28 +37,6 @@ You are part of a distinguished panel examining regulatory capacity infrastructu
 
 **Scoring**: -1 (non-compliant) | 0 (partial) | +1 (compliant)
 
-### Chrome Browser Assessment: Three Levels
-
-**Level 1: Browser (Google Chrome)**
-
-- TPI-1: -1 (No controller identification before identifier creation)
-- TPI-2: -1 (Controller identification not provided)
-- TPI-3: -1 (Privacy access buried, not operational in context)
-- TPI-4: -1 (Undisclosed USA transfers, no FISA 702 surveillance risk notice)
-
-**Level 2: Website (ELNA Medical Clinic with Chrome)**
-
-- TPI-1: -1 (Cookie banner after collection)
-- TPI-2: 0 (Name provided but address/registration inconsistencies)
-- TPI-3: -1 (Non-functional rights access; 17-18 trackers including Facebook)
-- TPI-4: -1 (Undisclosed cross-border transfers)
-
-**Level 3: IAB Framework (IAB Canada TCF)**
-
-- Designed to obscure controller identification across jurisdictions
-- May 14, 2025 Brussels court ruling: IAB Europe acts as controller, TCF string is personal data
-- Enables "surveillance laundering" through self-regulatory framework
-
 ### Key Findings
 
 1. **Not transparent**: Chrome fails to disclose scope of data processing by default
@@ -129,12 +107,12 @@ Controller-ID first architecture that addresses TPI-R findings through four comp
 
 TPI-R evidence collected in one jurisdiction supports enforcement in others:
 
-| **TPI Indicator** | **Quebec Law 25** | **PIPEDA (Canada)** | **Privacy Act 1988 (AU)** | **UK GDPR** | **Convention 108+** |
-| --- | --- | --- | --- | --- | --- |
-| TPI-1: Timing | Art. 8.1: Tech ID notice before collection | Principle 4.8: Purposes before collection | APP 5.1: Notification at/before collection | Art. 13.1: Info at time of collection | Article 8: Proactive transparency |
-| TPI-2: Controller ID | Art. 8: Controller identification required | Principle 4.1: Accountability for info | APP 1.4: Open privacy policy | Art. 13.1: Controller identity | Article 8.3: Identity disclosure |
-| TPI-3: Rights Access | Art. 9-17: Access, rectification, erasure | Principle 4.9: Access upon request | APP 12: Access mechanisms | Art. 15: Right of access | Article 9: Data subject rights |
-| TPI-4: Cross-border | Art. 17: Communication of transfer | Principle 4.1.3: Safeguards | APP 8: Cross-border disclosure | Art. 44-46: Transfer mechanisms | Article 14: Transborder flows |
+| **TPI Indicator** | **Convention 108+** | **GDPR (EU)** | **UK GDPR & DPA 2018** | **PIPEDA (Canada)** | **Quebec Law 25** | **Privacy Act 1988 (AU)** | **UK GDPR** | **Privacy Act 2020 (NZ)** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| TPI-1: Timing | Art. 8.1: Tech ID notice before collection | Article 8: Proactive transparency | Art. 13, 14: Transparency | Art. 13, 14: Transparency | Principle 4.8: Purposes before collection | Principle 4.8: Purposes before collection | APP 5: Notification | Principle 3: Collection from individual |
+| TPI-2: Controller ID | Art. 8: Controller identification required | Article 8.3: Identity disclosure | Art. 13.1: Controller identity | Art. 13.1: Controller identity | Principle 4.1: Accountability for info | Principle 4.1: Accountability for info | APP 1: Accountability | Principle 12: Unique identifiers |
+| TPI-3: Rights Access | Art. 9-17: Access, rectification, erasure | Article 9: Data subject rights | Art. 15: Access | Art. 15: Access | Principle 4.9: Access upon request | Principle 4.9: Access upon request | APP 12: Access | Principle 6: Access |
+| TPI-4: Cross-border | Art. 17: Communication of transfer | Article 14: Transborder flows | Art. 44-46: Transfers | Schedule 1: International transfers | APP 8: Cross-border disclosure | Art. 17: Transfer disclosure | Art. 44-46: Transfer mechanisms | Principle 11: Disclosure outside NZ |
 
 **Key Insight**: Single TPI-Report enables coordinated multi-lateral enforcement without duplicating investigation work
 
@@ -219,7 +197,18 @@ The **DPTI Stack** (Digital Public Transparency Infrastructure) represents a lay
 ## Panel Discussion Framework
 
 ### Part 2: Regulatory Perspectives Panel (20 minutes)
-Panelists tbc
+
+**Timing unchanged**
+
+**Your fellow panelists (invitations sent, confirmations pending):**
+
+- Sharon Polsky (Privacy and Access Council of Canada) - Panel Lead
+- FIPA (Freedom of Information and Privacy Association)
+- Michael Geist (University of Ottawa)
+- Teresa Scassa (University of Ottawa)
+- Lisa Austin (University of Toronto)
+- CAI Quebec (Commission d'accès à l'information du Québec)
+- Graham Greenleaf (UNSW Sydney)
 
 ### Discussion Questions
 
@@ -275,15 +264,20 @@ Panelists tbc
 
 ---
 
-## Part 3: Standards Development Panel
+### Part 3: Standards Dev & Implement Panel (20 minutes)
 
 **Panelists:**
-TBC
+
+- Sal D'Agostino (Kantara ANCR WG - TPI-R)
+- Paul Knowles (Role-Based Containment)
+- Joanne Cooper (IDexchange - Age Assurance Infrastructure) - TBC
+
 **Discussion Focus:**
 
-- W3C DPV alignment with ISO/IEC 27560-1
-- Standards harmonization opportunities
-- Technical implementation frameworks
+- Standards implementation and technical architecture
+- TPI-R methodology and ANCR infrastructure
+- Role-Based Containment for privacy-enabling control
+- Age assurance infrastructure as reference implementation
 
 ---
 
@@ -302,17 +296,6 @@ TBC
 **72 Control Contexts**: 3 vectors × 4 TATA levels × 6 legal bases = comprehensive transparency governance configurations
 
 ---
-
-## Technical Resources
-
-## References & Resources
-
-### Workshop Materials
-
-- **Workshop Registration**: https://www.gdtagroup.org/event-details/regulatory-capacity-innovation-workshop-1
-- **Regulatory Capacity Survey**: [Regulatory Capacity Innovation Survey ](https://www.notion.so/fef976bd41f144b49b5adf4e3379e98d?pvs=21)
-- **Panelist Pack** (this document): https://github.com/Digital-Transparency-Lab/Events/blob/main/Jan-15-26/Panelist%20Pack
-- **Audience Pack**: https://github.com/Digital-Transparency-Lab/Events/blob/main/Jan-15-26/Audience%20%20Pack
 
 ### TPI-R Methodology
 
@@ -352,11 +335,6 @@ TBC
 - **Quebec Law 25**: https://www.quebec.ca/en/government/ministere/cybersecurite-numerique/laws-regulations/law-25
 - **FIPA (Freedom of Information and Privacy Association)**: https://fipa.bc.ca/
 
-### Academic & Research Resources
-
-- **Michael Geist (University of Ottawa)**: https://www.michaelgeist.ca/
-- **Privacy and Access Council of Canada**: https://pacccanada.com/
-- **UNSW Allens Hub for Technology, Law & Innovation**: https://www.allens.com.au/globalassets/
 
 ### Additional Context
 
@@ -371,12 +349,13 @@ TBC
 
 **Your Session Timing**:
 
-- Part 2 (Regulatory Perspectives): 11:05 AM - 11:25 AM Eastern
-- Part 3 (Standards Development): 11:25 AM - 11:40 AM Eastern
+- Part 2 (Regulatory Perspectives): 11:00 AM - 11:20 AM Eastern
+- Part 3 (Standards Dev & Implement): 11:20 AM - 11:40 AM Eastern
 
-**Q&A**: 11:50 AM - 12:00 PM Eastern (all panelists)
+**Q&A**: 11:40 AM - 11:50 AM Eastern (all panelists)
 
 **Technical Support**: Tim L and Marcelle will monitor chat and coordinate Q&A
+
 
 ---
 
